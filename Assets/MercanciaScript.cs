@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class MercanciaScript : MonoBehaviour
 {
+    public float cost;
+    
    void OnCollisionEnter(Collision collision)
    {
 
