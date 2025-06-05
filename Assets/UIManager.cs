@@ -14,12 +14,8 @@ public class UIManager : MonoBehaviour
     }
 
     // Update is called once per frame
-    void Update()
-    {
-        
-    }
 
-    public void UpdateMoneyTxt(string moneyamount)
+    public void UpdateMoneyTxt(string moneyAmount)
     {
         txtMoney.text = moneyAmount; // money amoun es un parámetro, estoy generando como un espacio para que me pasen un dato de tipo string. Cuando yo detecte una compra, actualiza el dinero que tengo y poné esta cantidad de plata
     }

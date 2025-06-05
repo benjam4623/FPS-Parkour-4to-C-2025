@@ -10,7 +10,7 @@ public class MoneyManager : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        
+        uiManager.UpdateMoneyTxt(money.ToString());
     }
 
    public void UpdateMoney(float moneyToAdd) // para que funcione tiene que ser llamada/invocada
@@ -22,7 +22,7 @@ public class MoneyManager : MonoBehaviour
         }
 
             money += moneyToAdd;
-
+            uiManager.UpdateMoneyTxt(money.ToString());
         }
         
    }
