@@ -1461,7 +1461,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a9e568dfaab3c70409c09d85b80ecf93, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  money: 100
+  money: 80
   uiManager: {fileID: 1274264907}
 --- !u!114 &1752423632
 MonoBehaviour:
