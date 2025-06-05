@@ -13,9 +13,17 @@ public class MoneyManager : MonoBehaviour
         
     }
 
-    // Update is called once per frame
-    void Update()
-    {
+   public void UpdateMoney(float moneyToAdd) // para que funcione tiene que ser llamada/invocada
+   {
+        if(money + moneyToAdd < 0)
+        {
+            Debug.Log("No te alcanza");
+            return;
+        }
+
+            money += moneyToAdd;
+
+        }
         
-    }
-}
+   }
+
